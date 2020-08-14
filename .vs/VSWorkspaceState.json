@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\nginx",
+    "\\server",
+    "\\worker"
+  ],
+  "SelectedNode": "\\worker\\Dockerfile",
+  "PreviewInSolutionExplorer": false
+}
