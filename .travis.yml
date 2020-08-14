@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t aspetter/react--test -f ./client/Dockerfile.dev ./client
+  - docker build -t aspetter/react-test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run aspetter/react-test npm test -- --coverage
